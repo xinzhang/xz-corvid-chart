@@ -5,6 +5,7 @@ import StateHeader from './components/Header/StateHeader';
 import SampleChart from './components/Charts/SampleChart';
 import './styles/App.scss';
 import Social from './components/Social';
+import Summary from './components/Summary';
 
 const disqusShortname = 'www-auscoservices-com-au';
 const disqusConfig = {
@@ -31,6 +32,7 @@ const Child = () => {
   return (
     <>
       <Social />
+      <Summary />
       <section className="section">
         <SampleChart state={state} />
       </section>
